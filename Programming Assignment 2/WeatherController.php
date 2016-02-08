@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 
 class WeatherController extends Controller
 {
-	public getWeather($location){
+	public function getWeather($location){
 		return "Weather at".$location;
 	}
 
